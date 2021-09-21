@@ -1,4 +1,3 @@
-
 h1 {
   color: #7dd176;
   font-weight: normal;
@@ -15,7 +14,6 @@ h1 {
   font-size: 60px;
   font-family: Arial;
   text-transform: none;
-
   text-align: center;
 }
 
@@ -28,6 +26,7 @@ h2 {
   margin: top;
   text-align: center;
 }
+
 h3 {
   color: #7dd176;
   font-weight: normal;
@@ -41,8 +40,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
- 
-
   font-family: "Quicksand", sans-serif;
 }
 
@@ -53,7 +50,6 @@ li {
 li a {
   display: block;
   color: white;
-
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -71,7 +67,8 @@ li a:hover {
   padding: 0;
   width: 10%;
   background-color: #81b214;
-  height: 100%; /* Full height */
+  height: 100%;
+  /* Full height */
 }
 
 body {
@@ -86,10 +83,11 @@ p {
   font-family: "Quicksand", sans-serif;
   font-weight: 100;
 }
- .horario{
+
+.horario {
   color: rgb(162, 179, 67);
-  font-size:smaller;
- }
+  font-size: smaller;
+}
 
 .fin {
   text-align: center;
@@ -107,20 +105,16 @@ p {
 }
 
 .categoria {
- 
   float: 30px;
-
- 
- 
 }
 
-nav ul{
+nav ul {
   display: flex;
   justify-content: space-between;
 }
 
 .box {
-margin: 30px 30px 2px 30px;
+  margin: 30px 30px 2px 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +138,6 @@ margin: 30px 30px 2px 30px;
 
 .flexContainer li {
   background-color: #f7faf1;
- 
   list-style: none;
   margin: 10px;
   text-align: center;
@@ -168,9 +161,7 @@ nav {
 
 .grid-container {
   display: grid;
-
   grid-template-columns: auto auto;
-
   align-content: center;
 }
 
@@ -182,11 +173,9 @@ nav {
 .item1 {
   grid-column: 1/3;
   margin: 1px 150px 1px 150px;
-  
 }
 
-.item2{
- 
+.item2 {
   margin-bottom: 10px;
 }
 
@@ -195,30 +184,35 @@ nav {
 }
 
 .icon {
-  
   align-items: center;
   text-align: center;
-  
 }
 
-
-
-.brandtitutulo{
+.brandtitutulo {
   margin-top: 20px;
   margin: 20px;
 }
 
-.navegacion{
+.navegacion {
   background-color: #bfdcae;
 }
-.tamaño{
+
+.tamaño {
   font-size: x-large;
 }
 
-.aside{
+.aside {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
+.categoria {
+  background-color: #7dd176;
+  width: 150px;
+  height: 500px;
+  float: left;
+  margin: 5px;
+  border-radius: 10px;
+}
