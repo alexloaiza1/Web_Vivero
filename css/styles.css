@@ -171,8 +171,8 @@ nav {
 }
 
 .item1 {
-  grid-column: 1/3;
-  margin: 1px 150px 1px 150px;
+  grid-column: 1/2;
+  margin: 1px 30px 1px 30px;
 }
 
 .item2 {
